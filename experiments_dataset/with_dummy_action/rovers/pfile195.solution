@@ -1,0 +1,7 @@
+[(nop ),(nop ),(nop ),(calibrate rover3 camera0 objective0 waypoint2),(dummy-add-predicate-action rover4),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(nop ),(dummy-add-predicate-action rover2),(take_image rover3 waypoint2 objective2 camera0 high_res),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(dummy-add-predicate-action rover0),(nop ),(nop ),(navigate rover3 waypoint2 waypoint4),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(nop ),(nop ),(communicate_image_data rover3 general objective2 high_res waypoint4 waypoint2),(dummy-add-predicate-action rover4),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(navigate rover0 waypoint2 waypoint0),(dummy-add-predicate-action rover1),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(sample_soil rover0 rover0store waypoint0),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(dummy-add-predicate-action rover9)]
+[(communicate_soil_data rover0 general waypoint0 waypoint0 waypoint2),(nop ),(nop ),(nop ),(dummy-del-predicate-action rover4),(nop ),(nop ),(nop ),(nop ),(nop )]

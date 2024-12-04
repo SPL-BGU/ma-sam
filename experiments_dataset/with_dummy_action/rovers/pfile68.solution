@@ -1,0 +1,7 @@
+[(nop ),(calibrate rover1 camera0 objective0 waypoint1),(dummy-add-predicate-action rover2),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(take_image rover1 waypoint1 objective2 camera0 low_res),(nop ),(nop ),(dummy-add-predicate-action rover4),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(navigate rover1 waypoint1 waypoint9),(nop ),(nop ),(nop ),(nop ),(dummy-add-predicate-action rover6),(nop ),(nop ),(nop )]
+[(nop ),(communicate_image_data rover1 general objective2 low_res waypoint9 waypoint2),(nop ),(nop ),(nop ),(nop ),(dummy-add-predicate-action rover6),(nop ),(nop ),(nop )]
+[(navigate rover0 waypoint9 waypoint6),(nop ),(nop ),(nop ),(dummy-add-predicate-action rover4),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(sample_rock rover0 rover0store waypoint6),(nop ),(nop ),(nop ),(nop ),(dummy-add-predicate-action rover5),(nop ),(nop ),(nop ),(nop )]
+[(communicate_rock_data rover0 general waypoint6 waypoint6 waypoint2),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(dummy-add-predicate-action rover8),(nop )]
