@@ -109,45 +109,4 @@ def plot_solving_results(file_path: Path, output_file_path: Path):
 
 if __name__ == "__main__":
     args = sys.argv
-    data_file_name = "solving_combined_statistics.csv"
-
-    arguments = [
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/sokoban_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/sokoban_enhanced/results_directory/")
-            / "sokoban_solving_combined_statistics_with_dummy.pdf",
-        ),
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/satellite_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/satellite_enhanced/results_directory/")
-            / "satellite_solving_combined_statistics_with_dummy.pdf",
-        ),
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/rovers_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/rovers_enhanced/results_directory/")
-            / "rovers_solving_combined_statistics_with_dummy.pdf",
-        ),
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/driverlog_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/driverlog_enhanced/results_directory/")
-            / "driverlog_solving_combined_statistics_with_dummy.pdf",
-        ),
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/depots_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/depots_enhanced/results_directory/")
-            / "depots_solving_combined_statistics_with_dummy.pdf",
-        ),
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/logistics_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/logistics_enhanced/results_directory/")
-            / "logistics_solving_combined_statistics_with_dummy.pdf",
-        ),
-        (
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/blocksworld_enhanced/results_directory/") / data_file_name,
-            Path("/home/mordocha/ma_planning/journal_experiments/with_dummy_actions/blocksworld_enhanced/results_directory/")
-            / "blocks_solving_combined_statistics_with_dummy.pdf",
-        ),
-    ]
-    for arg in arguments:
-        plot_solving_results(arg[0], arg[1])
-    # plot_solving_results(Path(args[1]), Path(args[2]))
+    plot_solving_results(Path(args[1]), Path(args[2]))
