@@ -47,6 +47,27 @@ Next we provide some information on the external tools and their installation pr
 * Run the tests using `pytest` on the code to validate the installation.
 
 
+## Dataset
+The available dataset was used in the experiments that were conducted in the paper.
+The dataset is available in the [data](experiments_dataset) directory.
+The domains available are:
+* Blocksworld
+* Depots
+* Driverlog
+* Logistics
+* Satellite
+* Sokoban
+* Rovers
+
+The names of the agents for each domain:
+* BlocksWorld - "[a1,a2,a3,a4]"
+* Depots - "[depot0,depot1,depot2,depot3,distributor0,distributor1,distributor2,distributor3,driver0,driver1,driver2,driver3]"
+* Driverlog - "[driver1,driver2,driver3,driver4,driver5,driver6,driver7,driver8]"
+* Logistics - "[apn1,apn2,tru1,tru2,tru3,tru4,tru5]"
+* Satellite - "[satellite0,satellite1,satellite2,satellite3,satellite4,satellite5,satellite6,satellite7,satellite8,satellite9]"
+* Sokoban - "[player-01,player-02,player-03,player-04]"
+* Rovers - "[rover0,rover1,rover2,rover3,rover4,rover5,rover6,rover7,rover8,rover9]"
+
 ## Usage
 Note - the experiment framework is a bit deprecated and needs to be updated.
 
@@ -83,3 +104,4 @@ After creating the directories, you can run the experiments using the [run_exper
   * --debug - a flag to run the code in debug mode -- will produce the log to STDOUT instead of only to a file. 
     * True / False
 
+The execution json file is available in the [experiments](experiments) directory.
