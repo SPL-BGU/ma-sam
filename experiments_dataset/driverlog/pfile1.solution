@@ -1,0 +1,6 @@
+[(walk driver1 s2 p1-2),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(walk driver1 p1-2 s1),(dummy-add-predicate-action driver2),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(walk driver1 s1 p1-0),(nop ),(dummy-add-predicate-action driver3),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(walk driver1 p1-0 s0),(dummy-add-predicate-action driver2),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(board-truck driver1 truck1 s0),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(drive-truck driver1 s0 s1 truck1),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]

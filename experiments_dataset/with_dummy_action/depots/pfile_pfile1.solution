@@ -1,8 +1,0 @@
-[(lift depot0 hoist0 crate1 pallet0),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(dummy-add-predicate-action distributor3),(nop ),(nop ),(nop ),(nop )]
-[(load depot0 hoist0 crate1 truck1),(nop ),(nop ),(nop ),(dummy-add-predicate-action distributor0),(nop ),(nop ),(nop ),(nop ),(drive driver1 truck1 depot0 distributor0),(nop ),(nop )]
-[(dummy-add-predicate-action depot0),(nop ),(nop ),(nop ),(lift distributor0 hoist1 crate0 pallet1),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
-[(nop ),(nop ),(nop ),(nop ),(load distributor0 hoist1 crate0 truck1),(nop ),(nop ),(dummy-del-predicate-action distributor3),(nop ),(nop ),(nop ),(nop )]
-[(nop ),(nop ),(nop ),(nop ),(unload distributor0 hoist1 crate1 truck1),(nop ),(nop ),(dummy-del-predicate-action distributor3),(nop ),(nop ),(nop ),(nop )]
-[(nop ),(nop ),(nop ),(dummy-del-predicate-action depot3),(drop distributor0 hoist1 crate1 pallet1),(nop ),(nop ),(nop ),(nop ),(drive driver1 truck1 distributor0 distributor1),(nop ),(nop )]
-[(nop ),(dummy-add-predicate-action depot1),(nop ),(nop ),(nop ),(unload distributor1 hoist2 crate0 truck1),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
-[(nop ),(nop ),(nop ),(nop ),(nop ),(drop distributor1 hoist2 crate0 pallet2),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
