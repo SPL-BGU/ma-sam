@@ -58,6 +58,7 @@ The domains available are:
 * Satellite
 * Sokoban
 * Rovers
+* Overcooked
 
 The names of the agents for each domain:
 * BlocksWorld - "[a1,a2,a3,a4]"
