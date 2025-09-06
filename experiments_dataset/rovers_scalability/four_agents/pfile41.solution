@@ -1,0 +1,7 @@
+[(nop ),(nop ),(calibrate rover2 camera0 objective3 waypoint5),(nop )]
+[(nop ),(nop ),(take_image rover2 waypoint5 objective3 camera0 colour),(nop )]
+[(nop ),(nop ),(navigate rover2 waypoint5 waypoint8),(nop )]
+[(nop ),(nop ),(communicate_image_data rover2 general objective3 colour waypoint8 waypoint4),(nop )]
+[(nop ),(nop ),(sample_soil rover2 rover2store waypoint8),(nop )]
+[(sample_rock rover0 rover0store waypoint1),(nop ),(communicate_soil_data rover2 general waypoint8 waypoint8 waypoint4),(nop )]
+[(communicate_rock_data rover0 general waypoint1 waypoint1 waypoint4),(nop ),(nop ),(nop )]

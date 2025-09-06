@@ -1,0 +1,5 @@
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(sample_soil rover6 rover6store waypoint6),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(navigate rover6 waypoint6 waypoint5),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(communicate_soil_data rover6 general waypoint6 waypoint5 waypoint6),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(calibrate rover15 camera11 objective0 waypoint0)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(take_image rover15 waypoint0 objective1 camera11 colour)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(communicate_image_data rover15 general objective1 colour waypoint0 waypoint6)]

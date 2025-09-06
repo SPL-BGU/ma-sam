@@ -1,0 +1,4 @@
+[(nop ),(calibrate rover1 camera0 objective0 waypoint0)]
+[(nop ),(take_image rover1 waypoint0 objective0 camera0 colour)]
+[(nop ),(navigate rover1 waypoint0 waypoint2)]
+[(nop ),(communicate_image_data rover1 general objective0 colour waypoint2 waypoint0)]

@@ -1,0 +1,8 @@
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(calibrate rover15 camera9 objective0 waypoint0)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(take_image rover15 waypoint0 objective0 camera9 high_res)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(communicate_image_data rover15 general objective0 high_res waypoint0 waypoint2)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(sample_rock rover15 rover15store waypoint0)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(sample_soil rover13 rover13store waypoint4),(nop ),(communicate_rock_data rover15 general waypoint0 waypoint0 waypoint2)]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(communicate_soil_data rover13 general waypoint4 waypoint4 waypoint2),(nop ),(nop )]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(sample_rock rover11 rover11store waypoint4),(nop ),(nop ),(nop ),(nop )]
+[(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(nop ),(communicate_rock_data rover11 general waypoint4 waypoint4 waypoint2),(nop ),(nop ),(nop ),(nop )]

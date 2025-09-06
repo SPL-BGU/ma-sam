@@ -1,0 +1,7 @@
+[(calibrate rover0 camera3 objective0 waypoint0),(nop )]
+[(take_image rover0 waypoint0 objective0 camera3 colour),(nop )]
+[(communicate_image_data rover0 general objective0 colour waypoint0 waypoint8),(nop )]
+[(navigate rover0 waypoint0 waypoint7),(nop )]
+[(navigate rover0 waypoint7 waypoint5),(nop )]
+[(sample_rock rover0 rover0store waypoint5),(nop )]
+[(communicate_rock_data rover0 general waypoint5 waypoint5 waypoint8),(nop )]
