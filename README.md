@@ -67,6 +67,12 @@ The names of the agents for each domain:
 * Satellite - "[satellite0,satellite1,satellite2,satellite3,satellite4,satellite5,satellite6,satellite7,satellite8,satellite9]"
 * Sokoban - "[player-01,player-02,player-03,player-04]"
 * Rovers - "[rover0,rover1,rover2,rover3,rover4,rover5,rover6,rover7,rover8,rover9]"
+* Overcooked - "[a1,a2]"
+
+We also added the scalability dataset used in the experiments.
+The scalability dataset is available in the [scalability_data](experiments_dataset/scalability_data) directory.
+The domains available are:
+* Rovers with 2, 4, 8, and 16 agents.
 
 ## Usage
 Note - the experiment framework is a bit deprecated and needs to be updated.
